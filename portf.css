@@ -23,37 +23,14 @@ margin-left:0;
 #name img{
     float: left;
 } 
-@media only screen and (min-width:300px){
-    body{
-       background-color: black;
-       color: white;
-   }
-   
-.fa-facebook{
-    background:darkblue;
-    color:whitesmoke;
-}
-  .fa-gmail {
-      background: red;
-    color: whitesmoke;
-  }
-  .fa-github{
-    background:black;
-    color:whitesmoke;
-  }
-  .fa-twitter{
-    background: #87cefa;
-    color:whitesmoke;
-  }
-    .fa {
-    padding:30px;
-    text-decoration:none;
-    border-radius:50%;
-  }
-  
+
   footer {
     text-align: center;
     background-color: DarkSalmon;  
     padding: 10px;
-    margin: 5px 8px;
+    width: 100%;
+  }
+  footer img{
+    width: 50px;
+  margin-right: 30px;
   }
